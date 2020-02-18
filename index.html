@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,500,700&display=swap" rel="stylesheet">
+    <!--    font awesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!--    plugins-->
+    <link rel="stylesheet" href="dist/css/vendor.min.css">
+    <!--   bootstrap -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <!--    styles-->
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+<body>
+<!--start banner-->
+<section id="banner">
+    <!--start banner-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Netfl<span class="text-primary font-weight-bold">Ix</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form action="" class="col-12 col-md-6 p-0 mt-1">
+                    <div class="input-group ">
+                        <input type="search" class="form-control bg-transparent border-0"
+                               placeholder="Search for Your favorite movie" aria-label="Search for Your favorite movie"
+                               aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-white border-0" id="basic-addon2"> <i
+                                    class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <a href="login.html" class="btn btn-primary mr-0 mr-sm-2 mb-2  mb-sm-0 mt-2 mt-sm-0">Login</a>
+                    <a href="register.html" class="btn btn-outline-light">Register</a>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--end banner-->
+    <!--  start movies  -->
+    <div class="movies owl-carousel owl-theme">
+        <!--        start movie-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg " style="background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+      url('dist/images/avengers.jpeg')center/cover no-repeat;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name text-capitalize fw-300">iron man</h1>
+                            <span class="movie__year align-self-center">2017</span>
+                        </div>
+
+                        <div class="movie__rating d-flex my-2">
+                            <div class="d-flex">
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                            </div>
+                            <span class="align-self-center">4.7</span>
+                        </div>
+
+                        <p class="movie__description my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Atque corporis expedita, labore officia omnis qui reprehenderit sint sit veniam
+                            voluptatibus! Perferendis quaerat, saepe. Ad, molestiae nisi quae quisquam quo tempore.</p>
+                        <div class="movie__cta my-4">
+                            <a href="show.html" class="btn btn-primary text-capitalize mr-0 mr-md-2"> <span class="fa fa-play"> watch now</span></a>
+                            <a href="" class="btn btn-outline-light text-capitalize"> <span class="fa fa-heart"> add to favorite</span></a>
+                        </div>
+                    </div><!-- end of col -->
+                    <div class="col-6 mt-2 mx-auto col-md-4 col-lg-3  ml-md-auto mr-md-0">
+                        <img src="dist/images/avengers3.jpeg" alt="" class="img-fluid">
+                    </div>
+
+                </div><!-- end of row -->
+
+            </div><!-- end of container -->
+        </div> <!--        end movie-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg " style="background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+      url('dist/images/iron.jpeg')center/cover no-repeat;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name text-capitalize fw-300">iron man</h1>
+                            <span class="movie__year align-self-center">2017</span>
+                        </div>
+
+                        <div class="movie__rating d-flex my-2">
+                            <div class="d-flex">
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                                <i class="fa fa-star text-primary mr-2"></i>
+                            </div>
+                            <span class="align-self-center">4.9</span>
+                        </div>
+
+                        <p class="movie__description my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Atque corporis expedita, labore officia omnis qui reprehenderit sint sit veniam
+                            voluptatibus! Perferendis quaerat, saepe. Ad, molestiae nisi quae quisquam quo tempore.</p>
+                        <div class="movie__cta my-4">
+                            <a href="show.html" class="btn btn-primary text-capitalize mr-0 mr-md-2"> <span class="fa fa-play"> watch now</span></a>
+                            <a href="" class="btn btn-outline-light text-capitalize"> <span class="fa fa-heart"> add to favorite</span></a>
+                        </div>
+                    </div><!-- end of col -->
+                    <div class="col-6 mt-2 mx-auto col-md-4 col-lg-3  ml-md-auto mr-md-0">
+                        <img src="dist/images/iron.jpeg" alt="" class="img-fluid">
+                    </div>
+
+                </div><!-- end of row -->
+
+            </div><!-- end of container -->
+        </div> <!--        end movie-->
+
+    </div><!--    end movies-->
+
+</section>
+<!--end banner-->
+<!--start listing-->
+<section class="listing py-2">
+   <div class="container">
+       <div class="row  my-4">
+           <div class="col-12 d-flex justify-content-between ">
+               <h4 class="listing__title text-white fw-300">Drama</h4>
+               <a href="" class="text-capitalize text-primary align-self-center">see all</a>
+           </div>
+       </div><!--end row-->
+       <div class=" movies owl-carousel owl-theme">
+           <div class="movie p-0">
+               <img src="dist/images/boster4.jpeg" alt="" class="img-fluid">
+               <div class="movie__details">
+
+                   <div class="d-flex text-white justify-content-between">
+                       <p class="mb-0 movie__name">movie name</p>
+                       <p class="mb-0 movie__year align-self-center">2017</p>
+                   </div>
+
+                   <div class="movie__rating d-flex">
+                       <div class="mr-2">
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                       </div>
+                       <span>4.7</span>
+                   </div>
+
+                   <div class="movie__views">
+                       <p class="text-white">Views : 300</p>
+                   </div>
+
+                   <div class="d-flex movie__cta">
+                       <a href="show.html" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                       <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                   </div>
+
+               </div><!--end movie__details-->
+           </div><!--end col-->
+           <div class="movie p-0">
+               <img src="dist/images/boster3.jpeg" alt="" class="img-fluid">
+               <div class="movie__details">
+
+                   <div class="d-flex text-white justify-content-between">
+                       <p class="mb-0 movie__name">movie name</p>
+                       <p class="mb-0 movie__year align-self-center">2017</p>
+                   </div>
+
+                   <div class="movie__rating d-flex">
+                       <div class="mr-2">
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                       </div>
+                       <span>4.7</span>
+                   </div>
+
+                   <div class="movie__views">
+                       <p class="text-white">Views : 300</p>
+                   </div>
+
+                   <div class="d-flex movie__cta">
+                       <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                       <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                   </div>
+
+               </div><!--end movie__details-->
+           </div><!--end col-->
+           <div class="movie p-0">
+               <img src="dist/images/boster2.jpeg" alt="" class="img-fluid">
+               <div class="movie__details">
+
+                   <div class="d-flex text-white justify-content-between">
+                       <p class="mb-0 movie__name">movie name</p>
+                       <p class="mb-0 movie__year align-self-center">2017</p>
+                   </div>
+
+                   <div class="movie__rating d-flex">
+                       <div class="mr-2">
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                       </div>
+                       <span>4.7</span>
+                   </div>
+
+                   <div class="movie__views">
+                       <p class="text-white">Views : 300</p>
+                   </div>
+
+                   <div class="d-flex movie__cta">
+                       <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                       <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                   </div>
+
+               </div><!--end movie__details-->
+           </div><!--end col-->
+           <div class="movie p-0">
+               <img src="dist/images/boster1.jpeg" alt="" class="img-fluid">
+               <div class="movie__details">
+
+                   <div class="d-flex text-white justify-content-between">
+                       <p class="mb-0 movie__name">movie name</p>
+                       <p class="mb-0 movie__year align-self-center">2017</p>
+                   </div>
+
+                   <div class="movie__rating d-flex">
+                       <div class="mr-2">
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                           <i class="fa fa-star text-primary mr-1"></i>
+                       </div>
+                       <span>4.7</span>
+                   </div>
+
+                   <div class="movie__views">
+                       <p class="text-white">Views : 300</p>
+                   </div>
+
+                   <div class="d-flex movie__cta">
+                       <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                       <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                   </div>
+
+               </div><!--end movie__details-->
+           </div><!--end col-->
+       </div><!--end row-->
+   </div> <!--end container-->
+
+
+</section>
+
+<section class="listing py-2">
+    <div class="container">
+        <div class="row  my-4">
+            <div class="col-12 d-flex justify-content-between ">
+                <h4 class="listing__title text-white fw-300">Action</h4>
+                <a href="" class="text-capitalize text-primary align-self-center">see all</a>
+            </div>
+        </div><!--end row-->
+        <div class=" movies owl-carousel owl-theme">
+            <div class="movie p-0">
+                <img src="dist/images/boster4.jpeg" alt="" class="img-fluid">
+                <div class="movie__details">
+
+                    <div class="d-flex text-white justify-content-between">
+                        <p class="mb-0 movie__name">movie name</p>
+                        <p class="mb-0 movie__year align-self-center">2017</p>
+                    </div>
+
+                    <div class="movie__rating d-flex">
+                        <div class="mr-2">
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+
+                    <div class="movie__views">
+                        <p class="text-white">Views : 300</p>
+                    </div>
+
+                    <div class="d-flex movie__cta">
+                        <a href="show.html" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                        <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                    </div>
+
+                </div><!--end movie__details-->
+            </div><!--end col-->
+            <div class="movie p-0">
+                <img src="dist/images/boster3.jpeg" alt="" class="img-fluid">
+                <div class="movie__details">
+
+                    <div class="d-flex text-white justify-content-between">
+                        <p class="mb-0 movie__name">movie name</p>
+                        <p class="mb-0 movie__year align-self-center">2017</p>
+                    </div>
+
+                    <div class="movie__rating d-flex">
+                        <div class="mr-2">
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+
+                    <div class="movie__views">
+                        <p class="text-white">Views : 300</p>
+                    </div>
+
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                        <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                    </div>
+
+                </div><!--end movie__details-->
+            </div><!--end col-->
+            <div class="movie p-0">
+                <img src="dist/images/boster2.jpeg" alt="" class="img-fluid">
+                <div class="movie__details">
+
+                    <div class="d-flex text-white justify-content-between">
+                        <p class="mb-0 movie__name">movie name</p>
+                        <p class="mb-0 movie__year align-self-center">2017</p>
+                    </div>
+
+                    <div class="movie__rating d-flex">
+                        <div class="mr-2">
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+
+                    <div class="movie__views">
+                        <p class="text-white">Views : 300</p>
+                    </div>
+
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                        <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                    </div>
+
+                </div><!--end movie__details-->
+            </div><!--end col-->
+            <div class="movie p-0">
+                <img src="dist/images/boster1.jpeg" alt="" class="img-fluid">
+                <div class="movie__details">
+
+                    <div class="d-flex text-white justify-content-between">
+                        <p class="mb-0 movie__name">movie name</p>
+                        <p class="mb-0 movie__year align-self-center">2017</p>
+                    </div>
+
+                    <div class="movie__rating d-flex">
+                        <div class="mr-2">
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                            <i class="fa fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+
+                    <div class="movie__views">
+                        <p class="text-white">Views : 300</p>
+                    </div>
+
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary flex-fill mr-2 text-capitalize"> <i class="fa fa-play"></i> watch now</a>
+                        <i class="far fa-heart fa-1x text-white align-self-center movie__fav-button"></i>
+                    </div>
+
+                </div><!--end movie__details-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div> <!--end container-->
+
+
+</section>
+<!--    end listing-->
+<!--start footer-->
+<footer id="footer" class=" bg-primary text-white py-3 mt-4 text-center">
+ <p class=" mb-0  text-capitalize text-center"> &copy; all copy right reserved for netflix 2010</p>
+<div class="social__icon"></div>
+    <a href="" class=" text-white mr-2"><i class="fab fa-facebook"></i></a>
+    <a href="" class=" text-white mr-2"><i class="fab fa-twitter"></i></a>
+    <a href="" class=" text-white mr-2"><i class="fab fa-youtube"></i></a>
+</footer>
+<!--end footer-->
+
+<!--    jquery-->
+<script src="dist/js/jquery-3.4.0.min.js"></script>
+<!--    bootstrap-->
+<script src="dist/js/bootstrap.min.js"></script>
+<script src="dist/js/popper.min.js"></script>
+
+<!--    vendor-->
+<script src="dist/js/vendor.min.js"></script>
+<!--main-->
+<script src="dist/js/main.min.js"></script>
+
+<!--owl-->
+<script>
+    $(document).ready(function () {
+        $("#banner .movies").owlCarousel({
+            loop: true,
+            nav: false,
+            items: 1,
+            dots:false
+        });//end movies
+        $(".listing .movies").owlCarousel({
+            loop: true,
+            nav: false,
+            stagePadding:50,
+           responsive:{
+              0:{items:1},
+              600:{items:3},
+              900:{items:4},
+             1000:{items:5}
+           },
+            dots:false,
+            margin:15
+        });
+
+    //    end listing
+    });
+</script>
+</body>
+</html>
